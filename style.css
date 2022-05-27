@@ -17,6 +17,32 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+a:focus {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.footer_links ul li a:focus {
+    border-bottom: none;
+    padding: 0px;
+    font-size: 18px;
+}
+
+.citation_div {
+    width: 613px;
+    margin: auto;
+    float: none;
+}
+.citation_div p:first-child{
+    font-family: "helvetica";
+    font-style: italic;
+    font-size: 22px;
+}
+
+.citation_div p:nth-child(2){
+    font-family: "helvetica";
+    font-size: 14px;
+    color: grey !important;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -677,7 +703,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -697,6 +723,9 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+}
+.cta-hero:focus {
+    border: 1px solid black;
 }
 
 .social {
@@ -775,7 +804,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white !important;
 }
 
 .btn-atomic-tangerine {
@@ -822,7 +851,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpeg");
 }
 
 @media (max-width: 1024px) {
@@ -890,6 +919,9 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .social span:before {
+        font-size: 48px;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
