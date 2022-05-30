@@ -919,6 +919,12 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .footer_links li{
+        padding: 15px 0px 15px 0px;
+    }
+    .footer_links a{
+        padding: 16px 5px 16px 5px;
+    }
     .social span:before {
         font-size: 48px;
     }
