@@ -665,8 +665,11 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
+h1, h2 {
+   font-family: "helvetica";
+   font-weight: 400; 
+}
+
 h3,
 h4,
 h5,
@@ -752,11 +755,11 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 .icons {
@@ -804,7 +807,7 @@ h4 {
 }
 
 .tc-white {
-    color: white !important;
+    color: white;
 }
 
 .btn-atomic-tangerine {
@@ -877,13 +880,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
